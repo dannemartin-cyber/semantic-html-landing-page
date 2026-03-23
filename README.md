@@ -1,57 +1,87 @@
 # Semantic HTML Landing Page
 
-This project demonstrates clean, semantic HTML structure suitable for modern web development.
-
-The goal is to show strong HTML fundamentals rather than heavy styling or JavaScript frameworks.
-
----
-
-## What this project demonstrates
-
-* semantic HTML elements
-* clear document structure
-* accessibility-friendly navigation
-* logical content hierarchy
-* clean, readable markup
+A clean, accessible landing page built using semantic HTML and minimal CSS.  
+This project focuses on strong foundational web development practices rather than visual complexity.
 
 ---
 
-## Project Structure
+## Purpose
+
+The goal of this project is to demonstrate:
+
+- Proper use of semantic HTML elements
+- Logical document structure
+- Accessibility-friendly layout
+- Separation of structure (HTML) and styling (CSS)
+
+This serves as a baseline example of how modern web pages should be structured before introducing frameworks or JavaScript.
+
+---
+
+## Features
+
+- Semantic HTML5 structure (header, nav, main, section, article, footer)
+- Internal navigation with anchor links
+- Clean and readable layout
+- Responsive design using basic CSS
+- Accessible and well-organized content
+
+---
+
+## Tech Stack
+
+- HTML5
+- CSS3
+
+---
 
 ```text
+## Project Structure
+
 semantic-html-landing-page/
-  README.md
-  index.html
-  assets/
-    favicon.svg
+│
+├── index.html
+├── styles.css
+├── README.md
+└── assets/
+    └── favicon.svg
 ```
 
 ---
 
-## Page Sections
+## How to Run
 
-The landing page includes:
+1. Clone the repository:
 
-* Header and navigation
-* Hero introduction
-* Project highlights
-* Technology stack
-* Contact information
+git clone https://github.com/dannemartin-cyber/semantic-html-landing-page.git
 
----
+2. Open index.html in your browser.
 
-## Goal
-
-Demonstrate strong HTML fundamentals using modern semantic tags instead of div-heavy layouts.
+No build tools or dependencies required.
 
 ---
 
-## Tech
+## What This Demonstrates
 
-HTML5
+This project highlights:
+
+- Understanding of semantic HTML principles
+- Ability to structure content for readability and accessibility
+- Clean separation between markup and styling
+- Attention to simple, maintainable design
 
 ---
 
-## Status
+## Future Improvements
 
-Portfolio project demonstrating semantic HTML best practices.
+- Add enhanced styling for a more modern UI
+- Introduce JavaScript for interactivity
+- Expand into a multi-page layout
+- Improve accessibility with ARIA roles and landmarks
+
+---
+
+## Author
+
+Danne Ray Martin  
+https://github.com/dannemartin-cyber
